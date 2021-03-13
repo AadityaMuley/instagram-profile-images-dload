@@ -1,0 +1,30 @@
+Assuming you have python & Jupyter Notebook installed already on the system - if not just Google it its very easy and straightforward.
+
+1. Install pip for your operating system:
+	a. for Ubuntu based Linux run the following commands on the terminal:
+		1. sudo apt update
+		2. sudo apt install python3-pip  //installs for Python 3
+		3. sudo apt install python-pip   //installs for Python 2
+		4. pip3 --version  //check the installed version
+		5. pip --version
+	b. for Windows:
+		1. download the get-pip.py file from: https://bootstrap.pypa.io/get-pip.py
+		2. launch the cmd as administrator (right-click cmd and select run as administrator)
+		3. use cd command to navigate to the folder/directory containing get-pip.py file (tip: save it in downloads or any folder easily accsesible)
+		4. run command: python get-pip.py
+		5. check version: pip --version
+2. Install beautifulsoup4 using the command:
+	pip install beautifulsoup4
+3. Install requests module using the command:
+	pip install requests
+4. Install selenium using the command:
+	pip install selenium
+5. Three Chrome Driver files are included. Unzip the file according to your Operating System and add it to your system PATH. (Google the process of how to add chromedriver to path in your respective Operating System if you are unfamiliar with the process)
+6. Change the following in code before executing:
+	a. go to Google and search the following and copy the your user agent:
+		my user agent
+	b. in the code go to the header variable and change the User-Agent to the one you got from Google
+	c. change the DRIVER_PATH to your own path where chromedriver PATH is stored
+	d. change dload_img function's img_name path to your machine's destination folder where you want the images stored (ensure the folder exists already)
+	e. in your browser open any instagram image and inspect the image. Copy the class name of the image div and change the img_links2 class name in the code to the class name you see on your browser
+7. Run the the code on Jupyter Notebook
