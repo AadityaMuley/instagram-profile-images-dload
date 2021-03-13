@@ -25,6 +25,5 @@ Assuming you have python & Jupyter Notebook installed already on the system - if
 		my user agent
 	b. in the code go to the header variable and change the User-Agent to the one you got from Google
 	c. change the DRIVER_PATH to your own path where chromedriver PATH is stored
-	d. change dload_img function's img_name path to your machine's destination folder where you want the images stored (ensure the folder exists already)
-	e. in your browser open any instagram image and inspect the image. Copy the class name of the image div and change the img_links2 class name in the code to the class name you see on your browser
+	d. in your browser open any instagram image and inspect the image. Copy the class name of the div where images are located and change the img_links2 class name in the code to the class name you see on your browser
 7. Run the the code on Jupyter Notebook
